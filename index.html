@@ -1,0 +1,27 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Happy Father's Day</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<div id="text">
+
+	</div>
+
+	<script type="text/javascript">
+		var i = 0, text;
+		text = "Happy Father's Day"
+
+		function typing() {
+			if (i < text.length) {
+				document.getElementById("text").innerHTML += text.charAt(i);
+				i++;
+				setTimeout(typing, 50);
+			}
+		}
+		typing();
+		(/script)	
