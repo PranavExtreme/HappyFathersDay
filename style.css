@@ -1,0 +1,17 @@
+  body{
+		margin: 0;
+		padding: 0;
+		background: linear-gradient(rgba(0,0,0,5),rgba(0)), url('https://wallpaperaccess.com/full/642835.jpg');
+		background-size: cover;
+		
+  }
+
+#text{
+	color: white;
+	font-size:50px
+	text-align: center;
+	margin-top: 300px;
+	text-transform: uppercase;
+	font-family: "Alex Brush"
+	font-weight: 700;
+}	
